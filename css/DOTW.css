@@ -41,6 +41,8 @@ body {
 
 .container-homebutton {
 	margin-top: 20px;
+	max-width: 1000px;
+	display: inline-block;
 }
 
 .img-banner{
