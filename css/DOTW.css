@@ -51,7 +51,9 @@ body {
 }
 
 .img-dragonbutton{
-	max-width: 23%;
+	max-width: 500px;
+	width:40%;
+	margin-bottom: 5px;
 }
 
 .img-homebutton{
@@ -334,8 +336,8 @@ nav {
 	border-radius: 0px !important;
 	background-color: #383838;
 	color: white;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
 	z-index: 2;
 }
 
@@ -399,7 +401,7 @@ nav a{
 
 #storysheet a:hover{
 	color: #31a7de;
-	background-color: white;
+	background-color: #31a7de;
 }
 
 #storysheet:focus{
