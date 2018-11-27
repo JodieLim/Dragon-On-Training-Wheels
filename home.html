@@ -17,23 +17,52 @@
 
 <body>
 
+	<div class="web-header">
 	<img src="header.png" class="imgHeader"></img>
 	<nav class="navbar" id="stickyNavBar">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="home.html" id="home"><img src="icon.png" class="navBarIcon"></img>DOTW</a>
+				<a class="navbar-brand" href="index.html" id="home"><img src="icon.png" class="navBarIcon"></img>DOTW</a>
 			</div>
 			<ul class="nav navbar-nav navText">
+					<li class="introduction" id="introduction"><a href="Introduction.html">INTRO</a></li>
 					<li class="navBasics" id="basics"><a href="Statistics.html">STATISTICS</a></li>
 					<li class="navIntro" id="intro"><a href="Items.html">ITEMS</a></li>
 					<li class="navResources" id="resources"><a href="Roleplay.html">ROLEPLAY</a></li>
 					<li class="navStorySheet" id="storysheet"><a href="Spells.html">SPELLS</a></li>
-					<li><a href="Introduction.html">INTRO</a></li>
 					<li><a href="Resources.html">LINKS</a></li>
 					<li><a href="Character Sheet.html">STORY SHEET</a></li>
 				</ul>
 			</div>
 		</nav>
+	</div>
+
+	<div class="mobile-header collapse">
+	<img src="header.png" class="imgHeader"></img>
+		<nav class="navbar">
+	<div class="container-fluid">
+	<div class="navbar-header">
+	 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		 <span class="icon-bar"></span>
+		 <span class="icon-bar"></span>
+		 <span class="icon-bar"></span>
+	 </button>
+	 <a class="navbar-brand" href="home.html" id="home"><img src="icon.png" class="navBarIcon"></img>DOTW</a>
+	</div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+	 <ul class="nav navbar-nav">
+		 <li class="introduction" id="introduction"><a href="Introduction.html">INTRO</a></li>
+		 <li class="navBasics" id="basics"><a href="Statistics.html">STATISTICS</a></li>
+		 <li class="navIntro" id="intro"><a href="Items.html">ITEMS</a></li>
+		 <li class="navResources" id="resources"><a href="Roleplay.html">ROLEPLAY</a></li>
+		 <li class="navStorySheet" id="storysheet"><a href="Spells.html">SPELLS</a></li>
+		 <li><a href="Resources.html">LINKS</a></li>
+		 <li><a href="Character Sheet.html">STORY SHEET</a></li>
+	 </ul>
+	</div>
+	</div>
+	</nav>
+	</div>
 
 
 	<div class="wrapper">
@@ -42,40 +71,36 @@
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
 		<div class="row container-dragon">
-			<img src="./images/BannerBasics.png" alt="Basics Banner" style="max-width: 920px; width: 100%; margin-bottom: 20px;">
+			<img src="./images/BannerBasics.png" alt="Dragons on Training Wheels Banner" class="banner">
 		</div>
 
-		<div class="container-dragon" >
-			<div class="row" style="max-width: 500px; float:left;">
+		<div class="container-dragon">
+			<div class="row">
 					<a href="./Statistics.html">
-						<img class="img-dragonbutton" src="./images/HankButton.png" alt="StatisticsButton" style="max-width: 50%; margin-right: 25px;">
+						<img class="img-dragonbutton" src="./images/HankButton.png" alt="StatisticsButton">
 					</a>
 					<a href="./Items.html">
-						<img class="img-dragonbutton" src="./images/LillyButton.png" alt="ItemsButton" style="max-width: 50%;">
+						<img class="img-dragonbutton" src="./images/LillyButton.png" alt="ItemsButton">
+					</a>
+					<a href="./Roleplay.html">
+						<img class="img-dragonbutton" src="./images/MargotButton.png" alt="RPButton">
+					</a>
+					<a href="./Spells.html">
+						<img class="img-dragonbutton" src="./images/TutterButton.png" alt="SpellButton">
 					</a>
 			</div>
-			<div class="row"style="max-width: 500px; float:left;">
-				<a href="./Roleplay.html">
-					<img class="img-dragonbutton" src="./images/MargotButton.png" alt="RPButton" style="max-width: 50%; margin-right: 25px;">
-				</a>
-				<a href="./Spells.html">
-					<img class="img-dragonbutton" src="./images/TutterButton.png" alt="SpellButton"  style="max-width: 50%;">
-				</a>
 		</div>
 
-
-		<div class="container-dragon" style="margin-top: 20px; ">
-			<div class="row">
-				<a href="./Introduction.html">
-					<img class="img-homebutton" src="./images/ButtonIntro.png" alt="IntroButton" style="max-width: 300px; width: 30%;">
-				</a>
-				<a href="./Resources.html">
-					<img class="img-homebutton" src="./images/ButtonLinks.png" alt="LinksButton" style="max-width: 300px; width: 30%;">
-				</a>
-				<a href="./Character Sheet.html">
-					<img class="img-homebutton" src="./images/ButtonSheet.png" alt="SheetButton"style="max-width: 300px; width: 30%;">
-				</a>
-			</div>
+		<div class="row container-homebutton">
+		<a href="./Introduction.html">
+			<img class="img-homebutton" src="./images/ButtonIntro.png" alt="IntroButton" style="margin-right:35px; width: 20%;">
+		</a>
+		<a href="./Resources.html">
+			<img class="img-homebutton" src="./images/ButtonLinks.png" alt="LinksButton" style="margin-right:35px; width: 20%;">
+		</a>
+		<a href="./Character Sheet.html">
+			<img class="img-homebutton" src="./images/ButtonSheet.png" alt="SheetButton" style="width:20%;">
+		</a>
 	</div>
 
 </div>

@@ -41,9 +41,24 @@ body {
 
 .container-homebutton {
 	margin-top: 20px;
-	max-width: 1000px;
-	display: inline-block;
 }
+
+/*Start Resource Page CSS */
+.container-resourceimg{
+	width:25%;
+	max-width:300px;
+	vertical-align: middle;
+}
+
+.container-resourcetxt{
+	width: 75%;
+}
+
+.resource-icon{
+		max-width:200px;
+		vertical-align: middle;
+}
+/*End Resource Page CSS*/
 
 .img-banner{
 	max-width: 100%;
@@ -51,9 +66,13 @@ body {
 }
 
 .img-dragonbutton{
+	max-width: 23%;
+}
+
+.img-navbutton{
 	max-width: 500px;
-	width:40%;
-	margin-bottom: 5px;
+	width: 100%;
+	margin-bottom: 20px;
 }
 
 .img-homebutton{
@@ -66,6 +85,7 @@ body {
 	max-width: 1000px;
 	margin: 0 auto;
 	background-color: white;
+	margin-bottom: 200px;
 }
 
 .longbuttonbox {
@@ -173,7 +193,7 @@ a {
 }
 
  img {
-	max-width: 400px;
+	max-width: 300px;
 	height: auto;
 }
 
@@ -210,19 +230,38 @@ a {
 	text-align: center;
 }
 
-h1 {
-	font-family: 'Kaushan Script', cursive;
-	font-size: 60px;
+.attribute-header{
+	background-color: #de3c30;
+	color: white;
+	border-style: double;
+	border-color: white;
+	border-width: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	max-width: 500px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border-radius: 24px;
+	text-align: center;
 }
 
-h2 {
-	font-family: 'Caveat', cursive;
+h1 {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 48px;
 }
 
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+
 h3 {
-	font-family: 'Caveat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: black;
+	font-weight: bold;
 }
 
 h4 {
@@ -247,7 +286,8 @@ ul {
 }*/
 
 #more,
-#more2{
+#more2,
+#more3{
 	display:none;
 }
 
@@ -267,14 +307,14 @@ ul {
 .panel-heading-spell{
 	background-color: #31a7de;
 	color:white;
-	font-family: 'Caveat', cursive;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 36px;
 }
 
 	.panel-heading-equipment{
 		background-color: #ded931;
 		color:white;
-		font-family: 'Caveat', cursive;
+		font-family: 'Montserrat', sans-serif;
 		font-size: 36px;
 	}
 
@@ -336,8 +376,6 @@ nav {
 	border-radius: 0px !important;
 	background-color: #383838;
 	color: white;
-	padding-left: 10px;
-	padding-right: 10px;
 	z-index: 2;
 }
 
@@ -353,12 +391,12 @@ nav a{
 	background-color: #de3c30;
 }
 
-#basics:hover{
+#basics a:hover{
 	color: #de3c30;
 	background-color: white;
 }
 
-#basics:focus{
+#basics a:focus{
 	color: #de3c30;
 	background-color: white;
 }
@@ -369,6 +407,21 @@ nav a{
 
 .navIntro{
 	background-color: #ded931;
+}
+
+.introduction{
+	background-image: url("../images/intro-button-bg.png");
+	background-size: cover;
+}
+
+
+#introduction a{
+	color: white;
+}
+
+#introduction a:hover{
+	color: black;
+	background-color: white;
 }
 
 #intro a:hover{
@@ -401,7 +454,7 @@ nav a{
 
 #storysheet a:hover{
 	color: #31a7de;
-	background-color: #31a7de;
+	background-color: white;
 }
 
 #storysheet:focus{
@@ -412,3 +465,36 @@ nav a{
 .navbar-right a:hover{
 	color: #383838;
 }
+
+.icon-bar{
+	background-color: white;
+}
+
+.banner{
+	max-width: 900px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.banner-page{
+	max-width: 500px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.sheetError{
+	color: red;
+}
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 640px) {
+
+.web-header{
+	display: none;
+}
+
+.mobile-header{
+	display: block;
+}
+	}

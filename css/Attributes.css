@@ -52,9 +52,13 @@ h3 {
 
 .attribute-header{
 	background-color: #de3c30;
-	color:white;
-	font-family: 'Caveat', cursive;
-	font-size: 48px;
+	color: white;
+	border-style: double;
+	border-color: white;
+	border-width: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 36px;
 	max-width: 500px;
 	height: auto;
 	margin: 0 auto;
